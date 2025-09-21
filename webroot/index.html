@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Pterodactyl Server Monitoring Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pterodactyl Server Monitoring</h1>
+        <form id="addServerForm">
+            <input type="text" id="serverName" placeholder="Názov servera" required>
+            <select id="serverStatus">
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select>
+            <button type="submit">Pridať server</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Názov</th>
+                    <th>Status</th>
+                    <th>Čas zmeny</th>
+                    <th>Akcia</th>
+                </tr>
+            </thead>
+            <tbody id="serverTable"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
