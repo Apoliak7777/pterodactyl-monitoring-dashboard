@@ -28,7 +28,8 @@ Web je ideálny pre menších prevádzkovateľov serverov, ktorí chcú mať jed
 
 ## Náhľad
 
-![Ukážka dashboardu](https://i.imgur.com/UZH8M7w.png)
+<img width="1261" height="724" alt="image" src="https://github.com/user-attachments/assets/0fecc24e-424d-44f7-bc9b-48d06770d001" />
+
 
 ## Prispievanie
 
